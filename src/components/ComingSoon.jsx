@@ -24,12 +24,12 @@ export default function ComingSoon() {
           muted
           loop
           playsInline
-          className="max-w-8xl h-auto rounded-2xl shadow-[0_0_30px_rgba(255,255,255,0.5)]"
+          className="w-auto h-auto rounded-2xl shadow-[0_0_30px_rgba(255,255,255,0.5)]"
         />
       </div>
 
       <div className="m-40">
-        <h1 className="text-7xl font-semibold mb-32">
+        <h1 className="text-7xl font-semibold mb-24">
           Ask more of your phone.
         </h1>
       </div>
