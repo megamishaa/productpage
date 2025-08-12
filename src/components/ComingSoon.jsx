@@ -1,6 +1,6 @@
 export default function ComingSoon() {
   return (
-    <div className="pt-28 flex flex-col items-center  min-h-screen bg-gradient-to-b from-black to-gray-600 text-white">
+    <div className="pt-28 flex flex-col items-center  min-h-screen bg-gradient-to-b from-black via-gray-600 to-black text-white">
       <h1 className="text-8xl font-semibold ">Google Pixel 10.</h1>
       <h1 className="text-8xl font-semibold pb-9">Coming 21 August.</h1>
       <p className="text-3xl pt-4 font-medium text-gray-300 mb-6">
@@ -17,18 +17,22 @@ export default function ComingSoon() {
         Sign up and Save
       </button>
 
-      <div className="flex justify-center items-center pt-6xl">
+      <div className="flex justify-center items-center pt-6xl mt-7 mb-30">
         <video
           src="https://storage.googleapis.com/mannequin/blobs/f3810460-c611-4e14-bafe-23e7a84f4f3a.mp4"
           autoPlay
           muted
           loop
           playsInline
-          className="max-w-full h-auto rounded-2xl shadow-[0_0_30px_rgba(255,255,255,0.5)]"
+          className="max-w-8xl h-auto rounded-2xl shadow-[0_0_30px_rgba(255,255,255,0.5)]"
         />
       </div>
 
-      <div className="h-4xl"></div>
+      <div className="m-40">
+        <h1 className="text-7xl font-semibold mb-32">
+          Ask more of your phone.
+        </h1>
+      </div>
     </div>
   );
 }
